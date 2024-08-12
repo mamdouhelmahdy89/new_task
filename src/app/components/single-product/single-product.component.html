@@ -1,0 +1,35 @@
+
+
+
+
+<div class="space"></div>
+
+<div class="card">
+  <div class=""  routerLink="/buying/{{data.id}}">
+      <img src="{{data.image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{data.title}}</h5>
+        <p class="card-text" >ID: {{data.id}}</p>
+        <p class="card-text"  > Price: {{data.price}}</p>
+        <p class="card-text" >{{data.category}}</p>
+        <p class="card-text d" >{{data.description}}</p>
+      
+        
+      </div>
+  </div>
+
+ <div>
+    <button  *ngIf="!addButton" (click)="addButton = true" >Add To cart</button>
+    <div class="d-flex w-30 "  *ngIf="addButton">
+      <input type="number" [(ngModel)]="amount">
+      <button (click)="add(); addButton = false" class="btn btn-danger "  >Add</button>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+

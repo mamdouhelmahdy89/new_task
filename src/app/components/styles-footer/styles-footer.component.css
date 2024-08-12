@@ -1,0 +1,139 @@
+
+.styleFooter{
+
+    width: 100%;
+}
+
+.footerTitle{
+
+     width: 100%;
+     font-size: 20px;
+     font-weight: 700;
+     text-align: center;
+}
+
+.styleImage{
+
+    width: 100%;
+    height: 200px;
+}
+
+.styleImage img{
+
+    height: 200px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+
+.footer{
+
+    width: 100%;
+    height: 200px;
+}
+
+.footerContent{
+
+    width: 100%;
+    height: 270px;
+    margin: auto;
+    background-color: rgb(233, 192, 13);
+    
+   
+}
+
+.legal{
+
+    width: 20%;
+    display: flex;
+    display: inline;
+    float: left;
+    padding-top: 20px;
+   
+}
+
+.siteMap{
+
+    width: 20%;
+    display: flex;
+    display: inline;
+    float: left;
+    padding-top: 20px;
+
+}
+
+.customer{
+
+    width: 20%;
+    display: flex;
+    display: inline;
+    float: left;
+    padding-top: 20px;
+
+}
+
+.newSletter{
+
+    width: 40%;
+    display: flex;
+    display: inline;
+    float: left;
+    padding-top: 20px;
+
+}
+
+.styList li{
+
+    list-style: none;
+    padding: 5px;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+
+.footerNew{
+
+    width: 100%;
+}
+
+.footerNew p{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.footerNew input{
+
+    width: 55%;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+    border: none;
+    padding: 2px;
+
+}
+
+.footerNew button{
+
+    width: 18%;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 700;
+    transition: all 1.1s;
+}
+
+.footerNew button:hover{
+
+     background-color: black;
+     color: white;
+}
+
+
+
+
+
+
+
+
+
+

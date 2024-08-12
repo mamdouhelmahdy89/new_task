@@ -1,0 +1,21 @@
+
+
+.topCart{
+
+    background-color: bisque;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+table{
+
+    text-align: center;
+}
+
+table img{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

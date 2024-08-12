@@ -1,0 +1,100 @@
+
+
+.carusele{
+  
+    width: 100%;
+   
+    
+}
+
+.caruseleImage{
+
+      margin: auto;
+      width: 100%;
+      
+      
+}
+
+.caruseleImage img{
+
+    width: 99%;
+    height: 300px;
+    
+
+}
+
+.caruseleImageDown{
+
+    width: 98%;
+    height: 300px;
+    margin: auto;
+  
+   
+}
+
+.imageLeft{
+
+    
+    float: left;
+    
+    display: inline;
+    width: 48%;
+    height:250px;
+    background-image: url(../../../assets/caruseleleft.webp);
+    background-size:cover;
+    text-align: center;
+    transition: transform .4s; 
+    transition: all .7s;
+       
+    
+}
+
+
+.imageRight{
+
+    float: right;
+    
+    display: inline;
+    width:48%;
+    height: 250px;
+    background-image: url(../../../assets/caruseleright.webp);
+    background-size: cover;
+    text-align: center;
+    transition: all .7s;
+
+}
+
+.imageLeft:hover{
+
+    transform: scale(1.1);
+    
+}
+
+
+.imageLeft p{
+
+    padding-top:18%;
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.imageRight p{
+
+    padding-top: 18%;
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.imageRight:hover{
+
+    transform: scale(1.1);
+   
+}
+
+
+
+
+
+

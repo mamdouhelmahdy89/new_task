@@ -1,0 +1,51 @@
+
+
+{
+    "dir":"ltr",
+
+    "home":{
+        
+        "home":"home",
+        "MEN":"MEN",
+        "T-SHIRTS":"T-SHIRTS",
+        "POLO SHIRTS":"POLO SHIRTS",
+        "SHORTS":"SHORTS",
+        "KIDS":"KIDS",
+        "K-TSHIRTS":"K-TSHIRTS",
+        "K-POLO SHIRTS":"K-POLO SHIRTS",
+        "K-SHORTS":"K-SHORTS",
+        "ACCESSORIES":"ACCESSORIES",
+        "HEADS&CAPS":"HEADS&CAPS",
+        "PERFUMS":"PERFUMS",
+        "OUR DESIGN SELECTION":"OUR DESIGN SELECTION",
+        "STREETWEARS":"STREETWEARS",
+        "AT OFFICE":"AT OFFICE",
+        "Register":"Register",
+        "New Arrivals":"New Arrivals",
+        "Mens Casual ":"Mens Casual Premium Slim Fit T-Shirts ",
+        "White Gold":"White Gold Plated Princess",
+        "SanDisk SSD":"SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "Samsung  ":"Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "MBJ Women's":"MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "FEATURED":"FEATURED"
+
+
+    },
+
+    "general":{
+
+        
+    },
+
+    "buttons":{
+
+        "Buy Now":"Buy Now",
+        "SHOP NOW":"SHOP NOW"
+
+    },
+
+    "toaster":{
+
+
+    }
+}

@@ -1,0 +1,42 @@
+
+
+
+
+
+<div class="container">
+
+    <div class="space"></div>
+
+    <form #f  [formGroup]="userForm">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Enter User Name</label>
+          <input type="text"    formControlName="name"   name="name"  class="form-control"  aria-describedby="emailHelp" required>
+          <div class="alert alert-danger" *ngIf="userForm.value.name==''&& userForm.touched">Please Enter Your Name</div>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Enter Password</label>
+          <input type="password" formControlName="password"  ngModel name="password" class="form-control" required minlength="6">
+          <div class="alert alert-danger" *ngIf="userForm.value.password==''&& userForm.touched">Please Enter Your password</div>
+           
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" formControlName="confirmpassword" ngModel  name="confirmpassword" class="form-control" required>
+            <div class="alert alert-danger" *ngIf="userForm.value.confirmpassword==''&&userForm.touched">your password desnot match</div>
+            
+        </div>
+
+        <button type="submit" [disabled]="userForm.value.name==''|| userForm.value.password==='' " (click)="goToAdmin(f)" class="btn btn-primary w-100">Submit</button>
+    </form>
+
+
+</div>
+
+<app-styles-footer></app-styles-footer>
+
+
+
+
+

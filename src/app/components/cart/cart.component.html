@@ -1,0 +1,52 @@
+
+
+<div class="space"></div>
+<div class="container">
+ 
+    <div class="topCart">
+        <p>Shopping Cart</p>
+        <p>you have {{cartProduct.length}} item in your cart</p>
+        <div class="btn btn-outline-danger" (click)="clearCarts();" >Clear Shopping Cart</div>
+    </div>
+    <div class="space"></div>
+    <table class="table table-borderde">
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+        <th>Action</th>
+        <tr *ngFor="let item of cartProduct; let index = index">
+            <td>{{item.item.id}}</td>
+            <td><img src="{{item.item.image}}" alt=""></td>
+            <td>{{item.item.title}}</td>
+            <td> {{item.item.price}}LE</td>
+            <td>
+                <div class="qun d-flex  text-center">
+                    <div class="btn btn-danger" (click)="addAmount(index)">+</div>
+                    <input type="text" (change)="changeDetect();" [(ngModel)]= "item.quantity" >
+                    <div class="btn btn-danger" (click)="minsAmount(index)">-</div>
+                </div>
+            </td>
+            <td> {{item.item.price * item.quantity}} LE</td>
+            <td>
+                <div class="btn btn-danger" (click)="deleteProduct(index);">Delete</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> </td>
+            <td>Total: {{total}} LE</td>
+            <td>
+                <div class="btn btn-success" (click)="addcart()">Order Now</div>
+            </td>
+        </tr>
+
+    </table>
+    <div class="alert alert-success" *ngIf="success">Your Order Is Successfully Done</div>
+
+</div>

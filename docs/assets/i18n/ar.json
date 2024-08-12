@@ -1,0 +1,54 @@
+
+
+
+
+
+{
+
+    "dir":"rtl",
+
+    "home":{
+        
+        "home":"الرئيسيه",
+        "MEN":"رجالى",
+        "T-SHIRTS":"تيشيرت رجالى",
+        "POLO SHIRTS":"ملابس بولو",
+        "SHORTS":"شورت رجالى",
+        "KIDS":"اطفالى",
+        "K-TSHIRTS":"تيشيرت اطفالى",
+        "K-POLO SHIRTS":"تيشيرت بولو",
+        "K-SHORTS":"شورت اطفالى",
+        "ACCESSORIES":"اكسسوارات",
+        "HEADS&CAPS":"قبعات",
+        "PERFUMS":"اخرى",
+        "OUR DESIGN SELECTION":"قسم التصميمات ",
+        "STREETWEARS":"ملابس خروج",
+        "AT OFFICE":"ملابس العمل المكتبى",
+        "Register":"تسجيل الدخول",
+        "New Arrivals":"اضافات جديده",
+        "Mens Casual":"تشيرت رجالى",
+        "White Gold ":"اكسسوار من الذهب الابيض",
+        "SanDisk SSD ":"هارد ديسك ",
+        "Samsung ":"شاشه سامسونج ",
+        "MBJ Women's ":"تيشيرت حريمى وبناتى ",
+        "FEATURED":"اضافات جديده"
+
+    },
+
+    "general":{
+
+        
+    },
+
+    "buttons":{
+
+         "Buy Now":"اشترى الان",
+         "SHOP NOW":"تسوق الان"
+
+    },
+
+    "toaster":{
+
+
+    }
+}
